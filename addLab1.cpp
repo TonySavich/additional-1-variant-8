@@ -13,9 +13,7 @@ int ms(int* l, int n) {
         r = l[n] + ms(l,n - 1);
         return(r);
     }
-    if (n < 0) {
-        return(0);
-    }
+  
 }
 
 
